@@ -507,7 +507,7 @@ color: #FFFFFF;}
             top:50%;
             left:50%;
             transform:translate(-50% -50%);}
-            .modal-button {padding: 0;
+        .modal-button {padding: 0;
             border: 1px solid rgba(0, 0, 0, 0.1);;
             line-height: 0;
             position: absolute;
@@ -515,9 +515,9 @@ color: #FFFFFF;}
             height: 24px;
             right: 24px;
             top: 24px;
-             border-radius: 50%;
+            border-radius: 50%;
             display: flex;
-             align-items: center;
+            align-items: center;
             justify-content: center;
             background-color: #e7e9fc;
             cursor: pointer;}
