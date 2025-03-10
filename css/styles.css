@@ -156,6 +156,11 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  text-transform: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .current {
@@ -163,11 +168,11 @@ h1 {
   color: #404bbf;
 }
 
-.nav-item:hover {
+.current:hover {
   color: #404bbf;
   width: 100%;
 }
-.nav-item:focus {
+.current:focus {
   color: #404bbf;
 }
 
@@ -252,6 +257,7 @@ h6 {
   display: inline-block;
   margin-bottom: 16px;
   display: flex;
+  text-decoration: none;
 }
 
 span {
@@ -313,13 +319,6 @@ span {
   display: inline-block;
 }
 
-.container-class {
-  width: 1158px;
-
-  margin: 0;
-  padding: 0 15px;
-}
-
 .nav-menu {
   display: flex;
   gap: 40px;
@@ -370,7 +369,7 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nameteam2 {
+.nameteamtwo {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
