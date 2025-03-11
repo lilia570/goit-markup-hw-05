@@ -139,9 +139,18 @@ h1 {
   margin-bottom: 72px;
 }
 
-.logo {
+.logo-one {
   color: #2e2f42;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #404bbf;
+  margin-right: 76px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .navigation .span {
@@ -732,6 +741,9 @@ img {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 169px;
+  height: 56px;
+  display: block;
 }
 .input:checked label .privacy-policy:checked {
   background-color: #404bbf;
@@ -786,4 +798,7 @@ img {
 }
 .footer-input::placeholder {
   color: #ffffff;
+}
+.footer-label {
+  margin-left: 16px;
 }
