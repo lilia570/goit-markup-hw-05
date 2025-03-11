@@ -763,6 +763,8 @@ img {
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  line-height: 2;
+  color: #ffffff;
 }
 .sub-button {
   justify-content: center;
@@ -778,9 +780,7 @@ img {
   display: flex;
   min-width: 165px;
 }
-.input-email {
-  line-height: 2;
-}
+
 .sub-svg {
   margin-left: 16px;
 }
