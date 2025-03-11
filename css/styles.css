@@ -778,3 +778,12 @@ img {
   display: flex;
   min-width: 165px;
 }
+.input-email {
+  line-height: 2;
+}
+.sub-svg {
+  margin-left: 16px;
+}
+.footer-input::placeholder {
+  color: #ffffff;
+}
