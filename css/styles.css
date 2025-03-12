@@ -762,6 +762,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-left: 16px;
 }
 .footer-form {
   display: flex;
@@ -797,6 +798,7 @@ img {
 
 .sub-svg {
   margin-left: 16px;
+  fill: #f4f4fd;
 }
 .footer-input::placeholder {
   color: #ffffff;
