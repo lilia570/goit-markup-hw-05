@@ -804,3 +804,8 @@ img {
 .footer-label {
   margin-left: 16px;
 }
+input[type='checkbox']:checked + .input-label .privacy-policy {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
